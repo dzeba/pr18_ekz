@@ -65,3 +65,23 @@ function initMap() {
     })
 }
 
+(function($){
+    $(function() {
+        $('.menu__icon').on('click', function() {
+            $(this).closest('.menu').toggleClass('menu_state_open');
+        });
+    });
+})(jQuery);
+
+
+$('.header__slider').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 4000,
+
+});
+
