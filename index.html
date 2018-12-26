@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
-<div class="header container-fluid"><a name="top"></a>
+<div class="header container-fluid" id="top">
     <div class="row">
         <div class="header__logo col-sm-10 col-md-10 col-lg-6 col-xl-7 col-10"><img class="logo" src="img/Bouncy.png"/></div>
-        <div class="menu">
+        <div class="menu" id="menu">
             <div class="menu__icon">
                 <span></span>
                 <span></span>
@@ -24,23 +24,24 @@
                 <span></span>
             </div>
 
-            <div class="menu__links">
+            <div class="menu__links" id="menu__links">
                 <a class="menu__links-item" href="#top">Hello</a>
                 <a class="menu__links-item" href="#portfolio">Menu</a>
                 <a class="menu__links-item" href="#team">Team</a>
-                <a class="menu__links-item" href="#contact">Contact</a>
+                <a class="menu__links-item" href="#contact">Reserve</a>
             </div>
         </div>
     </div>
+    <div class="element"></div>
         <div class="header__text1 text-center">CLASSIC FRENCH CUISINE IN THE HEART OF DUBLIN</div>
         <div class="header__text2 text-center">15 CASTLE MARKET, DUBLIN 2<br>
             TEL: 01-6727258</div>
         <div class="row d-flex justify-content-center">
-            <div class="header__button1">BOOK A TABLE</div>
+            <div class="header__button" id="header__button"><a class="header__button1" href="#contact">BOOK A TABLE</a></div>
         </div>
 
 </div>
-<div class="portfolio container-fluid"><a name="portfolio"></a>
+<div class="portfolio container-fluid" id="portfolio">
     <div class="portfolio__text1 text-center">Menu</div>
     <div class="portfolio__text2 text-center">At vero eos et accusamus et iusto odio dignissimos ducimus
         qui blanditiis praesentium</div>
@@ -57,8 +58,80 @@
         </ul>
     </div>
 
-    <a class="scrol" href="#team"><img class="scrol1" src="img/HOVER.png" height="37" width="38"/></a>
+    <div class="scrol" id="scrol"><a href="#team"><img class="scrol1" src="img/HOVER.png" height="37" width="38"/></a></div>
     <div class="grid row">
+
+
+
+        <div class="image best meat"><img src="img/meat_1.jpeg"/>
+            <div class="block">
+                <div class="block__text1">SOME MEAT</div>
+                <div class="block__text2">Our Mushroom & Swiss Burger brings out layers of texture
+                    and flavor that come together perfectly,
+                    with seasoned mushrooms, creamy bistro aioli, Swiss cheese and crispy onion strings.</div>
+                <div class="block__text3">Buy 7$</div>
+            </div>
+        </div>
+
+        <div class="image fish"><img src="img/fish_1.jpg"/>
+            <div class="block">
+                <div class="block__text1">SOME FISH</div>
+                <div class="block__text2">Our Mushroom & Swiss Burger brings out layers of texture
+                    and flavor that come together perfectly,
+                    with seasoned mushrooms, creamy bistro aioli, Swiss cheese and crispy onion strings.</div>
+                <div class="block__text3">Buy 12$</div>
+            </div>
+        </div>
+
+        <div class="image best salad"><img src="img/salad_1.jpg"/>
+            <div class="block">
+                <div class="block__text1">SOME SALAD</div>
+                <div class="block__text2">Our Mushroom & Swiss Burger brings out layers of texture
+                    and flavor that come together perfectly,
+                    with seasoned mushrooms, creamy bistro aioli, Swiss cheese and crispy onion strings.</div>
+                <div class="block__text3">Buy 14$</div>
+            </div>
+        </div>
+
+        <div class="image sushi"><img src="img/sushi_1.jpg"/>
+            <div class="block">
+                <div class="block__text1">FILADELFIA</div>
+                <div class="block__text2">Our Mushroom & Swiss Burger brings out layers of texture
+                    and flavor that come together perfectly,
+                    with seasoned mushrooms, creamy bistro aioli, Swiss cheese and crispy onion strings.</div>
+                <div class="block__text3">Buy 18$</div>
+            </div>
+        </div>
+
+        <div class="image fish"><img src="img/fish_2.jpg"/>
+            <div class="block">
+                <div class="block__text1">FISH</div>
+                <div class="block__text2">Our Mushroom & Swiss Burger brings out layers of texture
+                    and flavor that come together perfectly,
+                    with seasoned mushrooms, creamy bistro aioli, Swiss cheese and crispy onion strings.</div>
+                <div class="block__text3">Buy 9$</div>
+            </div>
+        </div>
+
+        <div class="image salad"><img src="img/salad_2.jpg">
+            <div class="block">
+                <div class="block__text1">SOME FOOD</div>
+                <div class="block__text2">Our Mushroom & Swiss Burger brings out layers of texture
+                    and flavor that come together perfectly,
+                    with seasoned mushrooms, creamy bistro aioli, Swiss cheese and crispy onion strings.</div>
+                <div class="block__text3">Buy 23$</div>
+            </div>
+        </div>
+
+        <div class="image fish"><img src="img/fish_3.jpg"/>
+            <div class="block">
+                <div class="block__text1">SOME FOOD</div>
+                <div class="block__text2">Our Mushroom & Swiss Burger brings out layers of texture
+                    and flavor that come together perfectly,
+                    with seasoned mushrooms, creamy bistro aioli, Swiss cheese and crispy onion strings.</div>
+                <div class="block__text3">Buy 29$</div>
+            </div>
+        </div>
 
         <div class="image best burger"><img src="img/burger_1.jpg"/>
             <div class="block">
@@ -70,93 +143,23 @@
             </div>
         </div>
 
-        <div class="image best meat"><img src="img/meat_1.jpeg"/>
-            <div class="block">
-                <div class="block__text1">BEST BURGER</div>
-                <div class="block__text2">Our Mushroom & Swiss Burger brings out layers of texture
-                    and flavor that come together perfectly,
-                    with seasoned mushrooms, creamy bistro aioli, Swiss cheese and crispy onion strings.</div>
-                <div class="block__text3">Buy 3$</div>
-            </div>
-        </div>
-
-        <div class="image fish"><img src="img/fish_1.jpg"/>
-            <div class="block">
-                <div class="block__text1">BEST BURGER</div>
-                <div class="block__text2">Our Mushroom & Swiss Burger brings out layers of texture
-                    and flavor that come together perfectly,
-                    with seasoned mushrooms, creamy bistro aioli, Swiss cheese and crispy onion strings.</div>
-                <div class="block__text3">Buy 3$</div>
-            </div>
-        </div>
-
-        <div class="image best salad"><img src="img/salad_1.jpg"/>
-            <div class="block">
-                <div class="block__text1">BEST BURGER</div>
-                <div class="block__text2">Our Mushroom & Swiss Burger brings out layers of texture
-                    and flavor that come together perfectly,
-                    with seasoned mushrooms, creamy bistro aioli, Swiss cheese and crispy onion strings.</div>
-                <div class="block__text3">Buy 3$</div>
-            </div>
-        </div>
-
-        <div class="image sushi"><img src="img/sushi_1.jpg"/>
-            <div class="block">
-                <div class="block__text1">BEST BURGER</div>
-                <div class="block__text2">Our Mushroom & Swiss Burger brings out layers of texture
-                    and flavor that come together perfectly,
-                    with seasoned mushrooms, creamy bistro aioli, Swiss cheese and crispy onion strings.</div>
-                <div class="block__text3">Buy 3$</div>
-            </div>
-        </div>
-
-        <div class="image fish"><img src="img/fish_2.jpg"/>
-            <div class="block">
-                <div class="block__text1">BEST BURGER</div>
-                <div class="block__text2">Our Mushroom & Swiss Burger brings out layers of texture
-                    and flavor that come together perfectly,
-                    with seasoned mushrooms, creamy bistro aioli, Swiss cheese and crispy onion strings.</div>
-                <div class="block__text3">Buy 3$</div>
-            </div>
-        </div>
-
-        <div class="image salad"><img src="img/salad_2.jpg">
-            <div class="block">
-                <div class="block__text1">BEST BURGER</div>
-                <div class="block__text2">Our Mushroom & Swiss Burger brings out layers of texture
-                    and flavor that come together perfectly,
-                    with seasoned mushrooms, creamy bistro aioli, Swiss cheese and crispy onion strings.</div>
-                <div class="block__text3">Buy 3$</div>
-            </div>
-        </div>
-
-        <div class="image fish"><img src="img/fish_3.jpg"/>
-            <div class="block">
-                <div class="block__text1">BEST BURGER</div>
-                <div class="block__text2">Our Mushroom & Swiss Burger brings out layers of texture
-                    and flavor that come together perfectly,
-                    with seasoned mushrooms, creamy bistro aioli, Swiss cheese and crispy onion strings.</div>
-                <div class="block__text3">Buy 3$</div>
-            </div>
-        </div>
-
         <div class="image wine"><img src="img/wine_1.jpg" height="280" width="280"/>
             <div class="block">
-                <div class="block__text1">BEST BURGER</div>
+                <div class="block__text1">LA CROIX</div>
                 <div class="block__text2">Our Mushroom & Swiss Burger brings out layers of texture
                     and flavor that come together perfectly,
                     with seasoned mushrooms, creamy bistro aioli, Swiss cheese and crispy onion strings.</div>
-                <div class="block__text3">Buy 3$</div>
+                <div class="block__text3">Buy 50$</div>
             </div>
         </div>
 
         <div class="image meat"><img src="img/meat_2.jpg"/>
             <div class="block">
-                <div class="block__text1">BEST BURGER</div>
+                <div class="block__text1">LOREM</div>
                 <div class="block__text2">Our Mushroom & Swiss Burger brings out layers of texture
                     and flavor that come together perfectly,
                     with seasoned mushrooms, creamy bistro aioli, Swiss cheese and crispy onion strings.</div>
-                <div class="block__text3">Buy 3$</div>
+                <div class="block__text3">Buy 32$</div>
             </div>
         </div>
 
@@ -166,27 +169,27 @@
                 <div class="block__text2">Our Mushroom & Swiss Burger brings out layers of texture
                     and flavor that come together perfectly,
                     with seasoned mushrooms, creamy bistro aioli, Swiss cheese and crispy onion strings.</div>
-                <div class="block__text3">Buy 3$</div>
+                <div class="block__text3">Buy 33$</div>
             </div>
         </div>
 
         <div class="image pizza"><img src="img/pizza_1.jpg"/>
             <div class="block">
-                <div class="block__text1">BEST BURGER</div>
+                <div class="block__text1">NEOPOLITAN</div>
                 <div class="block__text2">Our Mushroom & Swiss Burger brings out layers of texture
                     and flavor that come together perfectly,
                     with seasoned mushrooms, creamy bistro aioli, Swiss cheese and crispy onion strings.</div>
-                <div class="block__text3">Buy 3$</div>
+                <div class="block__text3">Buy 16$</div>
             </div>
         </div>
 
         <div class="image wine"><img src="img/wine_2.JPG" height="280" width="280"/>
             <div class="block">
-                <div class="block__text1">BEST BURGER</div>
+                <div class="block__text1">CHENET</div>
                 <div class="block__text2">Our Mushroom & Swiss Burger brings out layers of texture
                     and flavor that come together perfectly,
                     with seasoned mushrooms, creamy bistro aioli, Swiss cheese and crispy onion strings.</div>
-                <div class="block__text3">Buy 3$</div>
+                <div class="block__text3">Buy 85$</div>
             </div>
         </div>
 
@@ -212,11 +215,11 @@
 
         <div class="image burger"><img src="img/burger_2.jpg"/>
             <div class="block">
-                <div class="block__text1">BEST BURGER</div>
+                <div class="block__text1">BURGER KING</div>
                 <div class="block__text2">Our Mushroom & Swiss Burger brings out layers of texture
                     and flavor that come together perfectly,
                     with seasoned mushrooms, creamy bistro aioli, Swiss cheese and crispy onion strings.</div>
-                <div class="block__text3">Buy 3$</div>
+                <div class="block__text3">Buy 12$</div>
             </div>
         </div>
 
@@ -472,7 +475,7 @@
         </div>
     </div>
 </div>
-<div class="team container-fluid"><a name="team"></a>
+<div class="team container-fluid" id="team">
     <div class="team__text1 text-center">THE TEAM</div>
     <div class="team__text2 text-center">At vero eos et accusamus et iusto odio dignissimos ducimus
         qui blanditiis praesentium</div>
@@ -482,7 +485,7 @@
             <img class="team__img col-sm-6 col-md-4 col-10 offset-1" src="img/povar_1.jpg"/>
             <div class="team__block col-10 col-sm-6 col-md-8 offset-md-4 offset-sm-6 offset-1">
                 <div class="team__text3">Gabriel Antonio</div>
-                <div class="team__text4">Chef Povar</div>
+                <div class="team__text4">Chef</div>
                 <div class="team__text5">Gabriel Antonio Algarin Vega - chef of El Chico restaurant, known for his excellent culinary work in the Moscow restaurant El`Gaucho. Thanks to Gabriel Antonio Algarin Vega's unrivaled craftsmanship, the best products from Australia, New Zealand and, of course, Argentina, turn into real works of art.
                 </div>
             </div>
@@ -504,7 +507,7 @@
             <img class="team__img col-sm-6 col-md-4 col-10 offset-1" src="img/povar_3.jpg"/>
             <div class="team__block col-10 col-sm-6 col-md-8 offset-md-4 offset-sm-6 offset-1">
                 <div class="team__text3">Anthony Bourdain</div>
-                <div class="team__text4">Su-Chief</div>
+                <div class="team__text4">Su-Chef</div>
                 <div class="team__text5">Anthony Michael Bourdain is American celebrity chef, author, travel documentarian, and television personality who
                     starred in programs focusing on the exploration of international culture, cuisine, and the human
                     condition. He is considered one of the most influential chefs in the world.
@@ -516,7 +519,7 @@
     </div>
     </div>
 </div>
-<div class="test container-fluid"><a name="team"></a>
+<div class="test container-fluid">
     <div class="test__text1 text-center">Reviews</div>
     <div class="test__text2 text-center">At vero eos et accusamus et iusto odio dignissimos ducimus
         qui blanditiis praesentium</div>
@@ -547,7 +550,7 @@
         </div>
     </div>
 </div>
-<div class="info container-fluid">
+<div class="info container-fluid" id="contact">
     <div class="info__text">Reserve</div>
     <div class="row">
         <img class="info__img col-12 col-sm-10 offset-sm-1 col-md-7 offset-md-0" src="img/contact__img.jpg"/>
@@ -595,7 +598,7 @@
     </div>
 </div>
 
-<div class="footer container-fluid"><a name="contact"></a>
+<div class="footer container-fluid">
     <div class="footer__text1 text-center">CONTACT US</div>
     <div class="footer__text2 text-center">At vero eos et accusamus et iusto odio dignissimos
         ducimus qui blanditiis praesentium</div>
@@ -607,11 +610,11 @@
         </div>
         <div class="footer__text3">Copyright 2015. All rights Reserved</div>
         <ul class="footer__menu d-flex justify-content-center">
-            <li class="footer__icon"><a href="https://www.facebook.com"> <img src="img/_facebook.png" height="26" width="26"/></a></li>
+            <li class="footer__icon"><a href="https://www.facebook.com"><img src="img/facebook.png" height="26" width="26"/></a></li>
             <li class="footer__icon"><a href="https://www.twitter.com"><img src="img/twitter (1).png" height="26" width="26"/></a></li>
-            <li class="footer__icon"><img src="img/linkedin.png" height="26" width="26"/></li>
-            <li class="footer__icon"><img src="img/instagramm.png" height="26" width="26"/></li>
-            <li class="footer__icon"><img src="img/vimeo.png" height="26" width="26"/></li>
+            <li class="footer__icon"><a href="https://www.linkedin.com"><img src="img/linkedin.png" height="26" width="26"/></li>
+            <li class="footer__icon"><a href="https://www.instagram.com"><img src="img/instagramm.png" height="26" width="26"/></li>
+            <li class="footer__icon"><a href="https://www.twitter.com"><img src="img/vimeo.png" height="26" width="26"/></li>
 
         </ul>
 </div>

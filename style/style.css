@@ -133,7 +133,7 @@
 
 .header__text1{
     font-size: 56px;
-    line-height: 58px;
+    line-height: 48px;
     color: #F5F5F5;
     font-family: 'Major Mono Display', monospace;
     font-weight: bold;
@@ -162,6 +162,16 @@
     border: 1px solid #ffffff;
     margin-top: 20px;
     cursor: pointer;
+}
+
+.header__button1:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+    color: white;
+    text-decoration: none;
 }
 .portfolio{
     padding-bottom: 100px;
@@ -255,13 +265,7 @@
 }
 .scrol{
     position: sticky;
-    top: 20px;
-    z-index: 5;
-}
-
-.scrol1{
-    position: sticky;
-    bottom: 20px;
+    top: 30px;
     z-index: 5;
 }
 
@@ -521,9 +525,14 @@ textarea.info-control {
         padding-left: 1%;
     }
 
+
 }
 
 @media (max-width: 575px) {
+    .header__text1{
+        font-size: 40px;
+    }
+    
 
 
 
